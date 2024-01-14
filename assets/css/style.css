@@ -1135,9 +1135,8 @@ img {
     max-width: 612px;
     margin: 0 auto 45px auto;
 }
+ 
 .hero-section-wrap .hero-contact-form-wrap {
-    /* background: linear-gradient(0deg, rgba(19, 81, 216, 0.1), rgba(19, 81, 216, 0.1)),
-    linear-gradient(0deg, rgba(19, 81, 216, 0.05), rgba(19, 81, 216, 0.05)); */
     background: linear-gradient(0deg, rgba(19, 81, 216, 0.01), rgba(19, 81, 216, 0.01)),
     linear-gradient(0deg, rgba(19, 81, 216, 0.05), rgba(19, 81, 216, 0.05));
     border: 1px solid rgb(19 81 216 / 10%);
@@ -2330,7 +2329,7 @@ img {
 
 /* Pricing Table */
 .pricing-table-area {
-    padding: 220px 0;
+    padding: 220px 0 0;
 }
 .pricing-table-area .section-header p {
     margin-bottom: 0;
@@ -2736,6 +2735,7 @@ img {
 .about-service3-area {
     background: var(--dark1);
     padding: 120px 0;
+    margin-bottom: 110px;
 }
 .about-service3-area .custom-row {
     gap: 153px;
