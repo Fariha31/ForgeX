@@ -313,7 +313,7 @@
         margin-bottom: 30px;
     }
     .client-area .clients .client-logo img {
-        max-width: 80px;
+        max-width: 95px;
     }
     .client-area-2 .clients {
         padding: 0;
@@ -2191,9 +2191,7 @@
         height: 112px;
         width: 247px;
     }
-    .client-area .clients .client-logo img {
-        height: 30px;
-    }
+    
     .homepage .how-we-do-area {
         padding-top: 45px;
     }

@@ -1649,7 +1649,7 @@ img {
     margin-right: 20px;
 }
 .client-area .clients .client-logo {
-    min-width: 330px;
+    min-width: 210px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1657,7 +1657,7 @@ img {
 }
 .client-area .clients .client-logo img {
     display: block;
-    max-height: 65px;
+    /* max-height: 65px; */
 }
 .client-area-2 {
     padding-top: 0;
