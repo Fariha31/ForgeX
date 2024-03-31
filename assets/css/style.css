@@ -6239,23 +6239,23 @@ img {
 .footer-area .footer-top .right-content .right-content-inner .theme-btn {
     padding: 13px 26px;
 }
-.footer-area .footer-top .right-content .right-content-inner .footer-experience {
+.footer-area .footer-top  .footer-experience {
     gap: 60px;
-    margin-top: 38px;
+    margin-top: 20px;
 }
-.footer-area .footer-top .right-content .right-content-inner .footer-experience .footer-experience-item {
+.footer-area .footer-top   .footer-experience .footer-experience-item {
     color: #ffffff;
 }
-.footer-area .footer-top .right-content .right-content-inner .footer-experience .footer-experience-item h1 {
+.footer-area .footer-top .footer-experience .footer-experience-item h1 {
     font-size: 26px;
     line-height: 1;
     margin-bottom: 0;
 }
-.footer-area .footer-top .right-content .right-content-inner .footer-experience .footer-experience-item h1 span {
+.footer-area .footer-top   .footer-experience .footer-experience-item h1 span {
     font-size: 16px;
     font-weight: 400;
 }
-.footer-area .footer-top .right-content .right-content-inner .footer-experience .footer-experience-item p {
+.footer-area .footer-top  .footer-experience .footer-experience-item p {
     margin-bottom: 0;
 }
 
@@ -6304,21 +6304,24 @@ img {
     border-bottom: 1px solid rgba(255 255 255 / 20%);
     padding-bottom: 67px;
 }
-.footer-area .footer-bottom .footer-contact-info {
-    border-left: 1px solid rgba(255 255 255 / 20%);
-    padding: 0 65px 0 130px;
+.footer-area  .footer-contact-info {
+    display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 38px;
 }
-.footer-area .footer-bottom .footer-contact-info .footer-contact-info-item + .footer-contact-info-item {
-    margin-top: 50px;
+.footer-area  .footer-contact-info .footer-contact-info-item + .footer-contact-info-item {
+    margin-right: 10px;
 }
-.footer-area .footer-bottom .footer-contact-info .footer-contact-info-item h4 {
+.footer-area  .footer-contact-info .footer-contact-info-item h4 {
     color: #ffffff;
     font-size: 16px;
     line-height: 1;
-    margin-bottom: 19px;
+    margin-bottom: 12px;
 }
-.footer-area .footer-bottom .footer-contact-info .footer-contact-info-item p,
-.footer-area .footer-bottom .footer-contact-info .footer-contact-info-item p a {
+.footer-area .footer-contact-info .footer-contact-info-item p,
+.footer-area   .footer-contact-info .footer-contact-info-item p a {
     color: rgba(255 255 255 / 80%);
     line-height: 40px;
     margin-bottom: 0;
