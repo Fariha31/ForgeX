@@ -3942,8 +3942,12 @@ img {
     padding-bottom: 100px;
     margin-bottom: 100px;
 }
+
 .portfolio-items .portfolio-black-box .portfolio-sample-details {
-    background: var(--dark1);
+    background: #000000;
+}
+.portfolio-items .portfolio-black-beige .portfolio-sample-details {
+    background: #E9D3BA;
 }
 .portfolio-items .portfolio-indigo-box .portfolio-sample-details h3 a,
 .portfolio-items .portfolio-bluebase .portfolio-sample-details h3 a,
@@ -3959,10 +3963,10 @@ img {
     background: #CECDCB;
 }
 .portfolio-items .portfolio-bluebase .portfolio-sample-details {
-    background: #62759A;
+    background: #383d48;
 }
 .portfolio-items .portfolio-yellow-box .portfolio-sample-details {
-    background: #EEEEDD;
+    background: #B3D3EA;
 }
 .portfolio-items .portfolio-darkgray-box .portfolio-sample-details {
     background: #999999;
