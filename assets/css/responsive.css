@@ -1501,7 +1501,7 @@
     }
     .testimonial-item h1 {
         margin-bottom: 20px;
-        letter-spacing: 0px;
+        letter-spacing: -0.75px;
     }
     .testimonial-item p {
         line-height: 34px;
