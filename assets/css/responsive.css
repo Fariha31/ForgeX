@@ -1253,11 +1253,26 @@
         font-size: 33px;
         line-height: 36px;
     }
+        .testimonial-item .testimonial-content{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            gap:10px;
+        }
+           .testimonial-item .testimonial-content svg {
+            height: 55px;
+            width: 70px;
+            margin-top: -25px;
+                
+        }
+        .testimonial-item .testimonial-inner-content{
+            flex: 1;
+        }
     .testimonial2-card.testimonial-item h1 {
         font-size: 25px;
         line-height: 28.5px;
         margin-bottom: 15px;
-        letter-spacing: -1.5px;
+        letter-spacing: 1px;
     }
     .testimonial2-card.testimonial-item p {
         font-size: 15px;
@@ -1482,10 +1497,11 @@
         padding-top: 30px;
     }
     .testimonial-item {
-        padding: 70px 120px;
+        padding: 70px 60px;
     }
     .testimonial-item h1 {
         margin-bottom: 20px;
+        letter-spacing: 0px;
     }
     .testimonial-item p {
         line-height: 34px;
