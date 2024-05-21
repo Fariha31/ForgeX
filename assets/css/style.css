@@ -1237,7 +1237,7 @@ img {
     color: rgb(28 28 28 / 55%);
     margin: 0;
     border: 1px solid rgb(28 28 28 / 20%);
-    border-radius: 5px;
+    border-radius: 30px;
     padding: 8px 15px;
     transition: .3s;
     cursor: pointer;
@@ -2407,7 +2407,7 @@ img {
 }
 .pricing-table-box .theme-btn {
     width: 100%;
-    border-radius: 5px;
+    border-radius: 30px;
     text-align: center;
     justify-content: center;
 }
@@ -3356,7 +3356,7 @@ img {
     line-height: 28px;
 }
 .our-team-2-header .theme-btn {
-    border-radius: 10px;
+    border-radius: 30px;
 }
 .our-team-2-header .theme-btn:after {
     border-radius: 0 10px 10px 0;
@@ -4721,7 +4721,7 @@ img {
     margin-top: 90px;
 }
 .blog-details-pagination .theme-btn {
-    border-radius: 5px;
+    border-radius: 30px;
     padding: 12px 30px;
     line-height: 1;
 }
@@ -5740,7 +5740,7 @@ img {
     border: none;
     text-align: center;
     justify-content: center;
-    border-radius: 5px;
+    border-radius: 30px;
 }
 .contact-form .input-row .input-group .theme-btn::before {
     border-radius: 5px 0 0 5px;
@@ -6205,7 +6205,7 @@ img {
 .footer-area .theme-btn {
     padding: 8px 26px;
     border: none;
-    border-radius: 5px;
+    border-radius: 30px;
     line-height: 1;
     font-size: 16px;
 }
@@ -6358,7 +6358,29 @@ img {
 .copyright-area p a:hover{
     color: #ffffff;
 }
+.testimonial-item-body{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap:25px;
+    flex-wrap: wrap;
+}
+.testimonial-item .testimonial-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+}
 
+.testimonial-item .testimonial-content svg {
+    height: 55px;
+    width: 70px;
+    margin-top: -25px;
 
+}
+
+.testimonial-item .testimonial-inner-content {
+    flex: 1;
+}
 
 
